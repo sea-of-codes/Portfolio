@@ -20,8 +20,11 @@ A modern, responsive, and interactive personal portfolio website showcasing my *
 
 - **Frontend:** HTML5, CSS3, JavaScript  
 - **Styling:** CSS Grid, Flexbox, Animations, Hover Effects  
-
-
 - **Optional:** TailwindCSS or Bootstrap (if used)  
 
 ---
+
+📄 License
+
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
