@@ -1874,7 +1874,7 @@ section {
 }
 
 /* Touch device detection */
-@media (hover: none) and (pointer: coarse) {
+@media (hover: none) and (pointer: coarse){
 
     .cursor,
     .cursor-follower {
@@ -2355,7 +2355,7 @@ body.light {
     font-size: 1.2rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    z-index: 1001;
+    z-index: 1000;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -2440,4 +2440,85 @@ body.light {
 
 .light ::-webkit-scrollbar-thumb:hover {
     background: var(--muted-dark-text);
+}
+
+/* Mobile Friendly Layout */
+@media (max-width: 600px) {
+
+    /* Chat container fills screen */
+    .chat-container {
+        width: 100vw;
+        height: 100vh;
+        bottom: 0;
+        right: 0;
+        border-radius: 0;
+    }
+
+    /* Header adjusts spacing */
+    .chat-header {
+        padding: 12px;
+    }
+
+    .header-text h3 {
+        font-size: 14px;
+    }
+
+    .header-text p {
+        font-size: 11px;
+    }
+
+    /* Messages area takes full height */
+    .messages-container {
+        padding: 12px;
+        max-height: calc(100vh - 200px);
+    }
+
+    .message-content {
+        max-width: 90%;
+        font-size: 13px;
+        padding: 10px 14px;
+    }
+
+    /* Quick replies single column */
+    .quick-replies-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .quick-reply-btn {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    /* Input area */
+    .input-area {
+        padding: 12px;
+        gap: 10px;
+    }
+
+    .input-field {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .input-btn {
+        width: 38px;
+        height: 38px;
+        font-size: 15px;
+    }
+
+    /* Reduce avatar size */
+    .avatar {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+    }
+
+    .bot-avatar {
+        width: 24px;
+        height: 24px;
+        font-size: 11px;
+        margin-top: 8px;
+    }
 }
