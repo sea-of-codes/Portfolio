@@ -45,12 +45,3 @@ A modern, responsive, and interactive personal portfolio website showcasing my *
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.  
 
 ---
-
-### ⭐ Why This README Stands Out
-
-- Clean, structured, and professional ✅  
-- Badges for instant tech & status info ✅  
-- Folder structure explained ✅  
-- Live demo & project previews included ✅  
-- Contact info and future plans clearly stated ✅  
-- Visually appealing with emojis and images ✅
