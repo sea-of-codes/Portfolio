@@ -27,7 +27,7 @@ A modern, responsive, and interactive personal portfolio website showcasing my *
 ## 📫 Contact Me
 
 - ✉️ Email: arnavtomar1812007@gmail.com  
-- 🔗 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/ArnavTomar18)  
+- 🔗 LinkedIn: [linkedin.com/in/ArnavTomar18](https://linkedin.com/in/ArnavTomar18)  
 
 ---
 
